@@ -1,0 +1,5 @@
+/aisv_label_processor/
+__pycache__/
+.pytest_cache/
+.vscode/
+/aasdatahub/
