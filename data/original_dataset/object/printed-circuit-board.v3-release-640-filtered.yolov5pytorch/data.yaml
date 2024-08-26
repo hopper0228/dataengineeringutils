@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 23
+names: ['Button', 'Capacitor Jumper', 'Capacitor', 'Clock', 'Connector', 'Diode', 'EM', 'Electrolytic Capacitor', 'Ferrite Bead', 'IC', 'Inductor', 'Jumper', 'Led', 'Pads', 'Pins', 'Resistor Jumper', 'Resistor Network', 'Resistor', 'Switch', 'Test Point', 'Transistor', 'Unknown Unlabeled', 'iC']
+
+roboflow:
+  workspace: roboflow-100
+  project: printed-circuit-board
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/printed-circuit-board/dataset/3
